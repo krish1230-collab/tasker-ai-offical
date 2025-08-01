@@ -1,9 +1,9 @@
-import React from 'react';
-import '../index.css';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    © 2025 Tasker.Ai. All rights reserved.
+    <p>© 2025 Tasker.Ai. All rights reserved.</p>
   </footer>
 );
 
