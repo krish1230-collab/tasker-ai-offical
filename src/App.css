@@ -20,3 +20,11 @@ a {
 a:hover {
   color: #c4b5fd;
 }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
