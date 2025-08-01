@@ -1,29 +1,37 @@
 .hero {
-  padding: 80px 20px;
+  padding: 100px 20px;
   text-align: center;
-  background: #eef2ff;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  color: #f9fafb;
 }
 
 .hero h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 
 .hero span {
-  color: #4f46e5;
+  color: #818cf8;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  color: #d1d5db;
 }
 
 .hero button {
   background: #4f46e5;
   color: white;
-  padding: 14px 28px;
+  padding: 14px 32px;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 12px;
   font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background: #6366f1;
 }
